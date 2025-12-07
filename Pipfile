@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+# CVE-2021-33203 (High): Potential directory traversal via file upload
+django = "==3.2.3"
+
+# CVE-2020-14343 (Critical): Arbitrary code execution via untrusted YAML
+pyyaml = "==5.3"
+
+# CVE-2023-44271 (High): Denial of Service via controlled memory allocation
+pillow = "==9.0.0"
+
+# CVE-2018-18074 (Medium/High): Leaks Authorization header on redirect
+requests = "==2.19.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
