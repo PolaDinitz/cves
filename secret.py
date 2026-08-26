@@ -1,10 +1,8 @@
 import base64
 
-# The secret message and the key
 secret_message = "The vault combination is 42-17-89"
 secret_key = "MY_KEY"
 
-# Simple XOR encryption combined with Base64 encoding
 def encrypt(message, key):
     encoded_chars = []
     for i in range(len(message)):
