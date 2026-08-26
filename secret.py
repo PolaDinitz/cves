@@ -1,7 +1,6 @@
 import base64
 
 secret_message = "The vault combination is 42-17-89"
-secret_key = "MY_KEY"
 
 def encrypt(message, key):
     encoded_chars = []
