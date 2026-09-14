@@ -6,7 +6,5 @@
   "dependencies": {
     "lodash": "4.17.11",
     "axios": "0.21.0",
-    "moment": "2.29.1",
-    "express": "3.11.0"
   }
 }
