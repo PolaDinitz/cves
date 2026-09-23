@@ -1,0 +1,9 @@
+{
+    "name": "cas-pr-scan-test-fixture",
+    "version": "0.0.0-test",
+    "private": true,
+    "description": "Fixture for CAS PR-scan test runner - contains intentionally vulnerable deps for SCA scanning. DO NOT USE IN PRODUCTION.",
+    "dependencies": {
+        "lodash": "4.17.11"
+    }
+}
